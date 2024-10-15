@@ -12,7 +12,7 @@ const Dashboard = () => {
       </div>
       <div className='grid grid-cols-4 justify-items-stretch gap-3'>
         {/* box 1 */}
-        <div className='bg-[#e0f4fc] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#155357]'>
+        <div className='bg-[#e0f4fc] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#155357] transition-all duration-300 hover:scale-105'>
             <div className='font-bold text-xl my-2'>
                 $153.000
             </div>
@@ -21,7 +21,7 @@ const Dashboard = () => {
             </div>
         </div>
         {/* box 2 */}
-        <div className='bg-[#fffac3] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#e29241]'>
+        <div className='bg-[#fffac3] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#e29241] transition-all duration-300 hover:scale-105'>
             <div className='font-bold text-xl my-2'>
                 20
             </div>
@@ -30,7 +30,7 @@ const Dashboard = () => {
             </div>
         </div>
         {/* box 3 */}
-        <div className='bg-[#c0dcfc] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#2c5aac]'>
+        <div className='bg-[#c0dcfc] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#2c5aac] transition-all duration-300 hover:scale-105'>
             <div className='font-bold text-xl my-2'>
                 20
             </div>
@@ -39,7 +39,7 @@ const Dashboard = () => {
             </div>
         </div>
         {/* box 4 */}
-        <div className='bg-[#ebeff2] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#434660]'>
+        <div className='bg-[#ebeff2] rounded-md my-5 shadow-md flex flex-col  justify-center h-32 p-6 text-[#434660] transition-all duration-300 hover:scale-105'>
             <div className='font-bold text-xl my-2'>
                 20
             </div>
@@ -50,12 +50,12 @@ const Dashboard = () => {
       </div>
 
       <div className='grid grid-cols-2 justify-items-stretch gap-3'>
-        <div className='bg-white rounded-md my-5 shadow-custom flex flex-col  justify-center h-24 p-6 text-[#32827a]'>
+        <div className='bg-white rounded-md my-5 shadow-custom flex flex-col  justify-center h-24 p-6 text-[#32827a] transition-all duration-300 hover:scale-105'>
           <h2 className='font-semibold text-xl'>
             Chart Daily
           </h2>
         </div>
-        <div className='bg-white rounded-md my-5 shadow-custom flex flex-col  justify-center h-24 p-6 text-[#32827a]'>
+        <div className='bg-white rounded-md my-5 shadow-custom flex flex-col  justify-center h-24 p-6 text-[#32827a] transition-all duration-300 hover:scale-105'>
           <h2 className='font-semibold text-xl'>
             Todo List
           </h2>
